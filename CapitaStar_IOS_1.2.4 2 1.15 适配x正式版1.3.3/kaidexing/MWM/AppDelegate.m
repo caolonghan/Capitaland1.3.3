@@ -90,6 +90,7 @@ static int jpushCount = 0;
          RootViewController* vc = [[RootViewController alloc] initWithNibName:@"RootViewController" bundle:nil];
          navigationController = [[UINavigationController alloc] initWithRootViewController:vc];
         displayAdv = true;
+        
     }
     
     if(IS_IOS_7){

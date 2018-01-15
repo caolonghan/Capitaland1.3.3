@@ -58,6 +58,7 @@
     NSDateFormatter* formatter = [[NSDateFormatter alloc] init];
     formatter.dateFormat = @"d";
     return [formatter stringFromDate:date];
+   
 }
 
 +(NSString*) getMonth:(NSDate*) date{
