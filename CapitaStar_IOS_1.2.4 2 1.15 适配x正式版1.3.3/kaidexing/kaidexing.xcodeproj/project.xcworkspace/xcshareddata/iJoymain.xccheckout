@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>7121931F-8E98-4EF4-B6BE-FA445DEB8E02</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iJoymain</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>98c64c48-fdcf-4e76-8b6a-2f7302abaa73++2846</key>
+		<string>http://www.svnchina.com/svn/mma/Project</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZhuJC/iJoymain.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>98c64c48-fdcf-4e76-8b6a-2f7302abaa73++2846</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>98c64c48-fdcf-4e76-8b6a-2f7302abaa73++2846</key>
+		<string>http://www.svnchina.com/svn/mma</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>http://www.svnchina.com/svn/mma/Project/ZhuJC/iJoymain.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>98c64c48-fdcf-4e76-8b6a-2f7302abaa73++2846</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>98c64c48-fdcf-4e76-8b6a-2f7302abaa73++2846</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Project</string>
+		</dict>
+	</array>
+</dict>
+</plist>

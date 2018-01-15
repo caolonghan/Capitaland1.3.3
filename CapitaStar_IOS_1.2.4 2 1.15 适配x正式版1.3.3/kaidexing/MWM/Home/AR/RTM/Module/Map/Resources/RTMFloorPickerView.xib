@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="RTMFloorPickerView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="psL-9y-4ub">
+                    <rect key="frame" x="0.0" y="667" width="375" height="224"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="224" id="GWY-do-JE6"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="iN0-l3-epB" id="kM7-2f-keR"/>
+                        <outlet property="delegate" destination="iN0-l3-epB" id="hvi-eb-2ja"/>
+                    </connections>
+                </pickerView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KA7-i2-Cc2">
+                    <rect key="frame" x="329" y="667" width="46" height="30"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="46" id="6yc-ts-05Q"/>
+                        <constraint firstAttribute="height" constant="30" id="9pw-nd-7US"/>
+                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="MtB-Km-Lbq"/>
+                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="46" id="llq-2C-mtd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <state key="normal" title="确定">
+                        <color key="titleColor" red="0.20000000000000001" green="0.20000000000000001" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="comfireButtonAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="6ys-V5-h86"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <gestureRecognizers/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="psL-9y-4ub" secondAttribute="bottom" constant="-224" id="Aam-XI-7cm"/>
+                <constraint firstAttribute="trailing" secondItem="psL-9y-4ub" secondAttribute="trailing" id="YjN-qb-FPq"/>
+                <constraint firstItem="psL-9y-4ub" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="urs-D7-30P"/>
+                <constraint firstItem="KA7-i2-Cc2" firstAttribute="trailing" secondItem="psL-9y-4ub" secondAttribute="trailing" id="vPV-lN-leY"/>
+                <constraint firstItem="KA7-i2-Cc2" firstAttribute="top" secondItem="psL-9y-4ub" secondAttribute="top" id="ypn-dO-IS8"/>
+            </constraints>
+            <connections>
+                <outlet property="bottomMargin" destination="Aam-XI-7cm" id="AWx-S2-lOE"/>
+                <outlet property="comfireButton" destination="KA7-i2-Cc2" id="gN3-Sq-day"/>
+                <outlet property="floorPickerView" destination="psL-9y-4ub" id="6iA-uR-bGS"/>
+            </connections>
+            <point key="canvasLocation" x="35.5" y="54.5"/>
+        </view>
+    </objects>
+</document>
