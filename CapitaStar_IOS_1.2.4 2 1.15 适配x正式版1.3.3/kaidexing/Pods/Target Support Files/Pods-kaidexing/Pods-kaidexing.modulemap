@@ -1,6 +1,0 @@
-framework module Pods_kaidexing {
-  umbrella header "Pods-kaidexing-umbrella.h"
-
-  export *
-  module * { export * }
-}
