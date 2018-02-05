@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13196"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RootViewController">
+            <connections>
+                <outlet property="container" destination="aoN-6g-2XL" id="2Yl-4a-Sjr"/>
+                <outlet property="tabBar" destination="wuw-LC-rVQ" id="Fi0-9e-pIZ"/>
+                <outlet property="tabbarHeight" destination="Yfs-52-Bbo" id="iMt-3z-TBJ"/>
+                <outlet property="view" destination="6" id="7"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="6">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="460"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aoN-6g-2XL">
+                    <rect key="frame" x="0.0" y="64" width="320" height="351"/>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wuw-LC-rVQ" customClass="MyNBTabBar">
+                    <rect key="frame" x="0.0" y="415" width="320" height="45"/>
+                    <color key="backgroundColor" red="0.60000002379999995" green="0.80000001190000003" blue="0.20000000300000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="Pmm-dU-hnG"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <constraints>
+                <constraint firstItem="wuw-LC-rVQ" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="BY3-Ub-yi0"/>
+                <constraint firstItem="aoN-6g-2XL" firstAttribute="top" secondItem="6" secondAttribute="top" constant="64" id="EtA-iS-WgL"/>
+                <constraint firstItem="wuw-LC-rVQ" firstAttribute="top" secondItem="aoN-6g-2XL" secondAttribute="bottom" id="OxJ-uj-Xfw"/>
+                <constraint firstAttribute="trailing" secondItem="aoN-6g-2XL" secondAttribute="trailing" id="Ryr-uo-xqx"/>
+                <constraint firstAttribute="bottom" secondItem="wuw-LC-rVQ" secondAttribute="bottom" id="Yfs-52-Bbo"/>
+                <constraint firstAttribute="trailing" secondItem="wuw-LC-rVQ" secondAttribute="trailing" id="aAU-5a-fAX"/>
+                <constraint firstItem="aoN-6g-2XL" firstAttribute="leading" secondItem="6" secondAttribute="leading" id="p5t-AK-1mt"/>
+                <constraint firstAttribute="centerX" secondItem="wuw-LC-rVQ" secondAttribute="centerX" id="vAe-Am-pT3"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <inset key="insetFor6xAndEarlier" minX="0.0" minY="-20" maxX="0.0" maxY="20"/>
+        </view>
+    </objects>
+</document>
