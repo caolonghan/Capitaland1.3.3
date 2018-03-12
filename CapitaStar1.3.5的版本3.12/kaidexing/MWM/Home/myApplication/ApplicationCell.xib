@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13196" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13173"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="ApplicationCell">
+            <rect key="frame" x="0.0" y="0.0" width="132" height="138"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="132" height="138"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uQb-fc-q3p">
+                        <rect key="frame" x="107" y="0.0" width="24" height="24"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="24" id="FEu-HD-Vzr"/>
+                            <constraint firstAttribute="height" constant="24" id="XFu-1c-7JK"/>
+                        </constraints>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <state key="normal" title="Button">
+                            <color key="titleColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="3ni-zX-xoy">
+                        <rect key="frame" x="55" y="47.5" width="23" height="23"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="23" id="vCi-gV-uwh"/>
+                            <constraint firstAttribute="width" constant="23" id="z8V-3S-9gM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VGA-7y-eOR">
+                        <rect key="frame" x="66" y="92.5" width="0.0" height="0.0"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vTg-Z5-exg">
+                        <rect key="frame" x="131" y="0.0" width="1" height="138"/>
+                        <color key="backgroundColor" red="0.8901960784313725" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="1" id="ipx-PH-Ygm"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rud-FE-OdV">
+                        <rect key="frame" x="0.0" y="137" width="132" height="1"/>
+                        <color key="backgroundColor" red="0.89019607840000003" green="0.89019607840000003" blue="0.89019607840000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="1" id="uEz-AE-8HG"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="3ni-zX-xoy" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="1Gp-pM-vU2"/>
+                <constraint firstAttribute="bottom" secondItem="rud-FE-OdV" secondAttribute="bottom" id="1qy-eX-E9n"/>
+                <constraint firstItem="3ni-zX-xoy" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="-10" id="1yp-bj-tNt"/>
+                <constraint firstItem="uQb-fc-q3p" firstAttribute="trailing" secondItem="vTg-Z5-exg" secondAttribute="leading" id="4tb-w4-HKT"/>
+                <constraint firstItem="rud-FE-OdV" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="5fx-4E-w3h"/>
+                <constraint firstItem="uQb-fc-q3p" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="5ng-Bi-D2X"/>
+                <constraint firstAttribute="trailing" secondItem="rud-FE-OdV" secondAttribute="trailing" id="GXf-2j-RNc"/>
+                <constraint firstItem="vTg-Z5-exg" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="SyQ-UD-bi5"/>
+                <constraint firstItem="vTg-Z5-exg" firstAttribute="bottom" secondItem="gTV-IL-0wX" secondAttribute="bottom" id="VSZ-DF-b3n"/>
+                <constraint firstItem="VGA-7y-eOR" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="Z70-ie-abx"/>
+                <constraint firstItem="VGA-7y-eOR" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" constant="23" id="k7I-Xe-Irj"/>
+                <constraint firstAttribute="trailing" secondItem="vTg-Z5-exg" secondAttribute="trailing" id="mkc-mr-tyz"/>
+            </constraints>
+            <size key="customSize" width="132" height="138"/>
+            <connections>
+                <outlet property="functionImg" destination="3ni-zX-xoy" id="kyK-jv-Wvn"/>
+                <outlet property="functionLab" destination="VGA-7y-eOR" id="5ff-CI-kw1"/>
+                <outlet property="lineView1" destination="vTg-Z5-exg" id="reI-pX-RtZ"/>
+                <outlet property="lineView2" destination="rud-FE-OdV" id="nC0-KI-IGP"/>
+                <outlet property="stateBtnImg" destination="uQb-fc-q3p" id="gPl-ED-33n"/>
+            </connections>
+            <point key="canvasLocation" x="-34" y="33"/>
+        </collectionViewCell>
+    </objects>
+</document>
