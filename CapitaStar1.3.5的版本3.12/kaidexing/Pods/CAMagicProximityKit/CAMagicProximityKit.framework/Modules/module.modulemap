@@ -1,6 +1,0 @@
-framework module CAMagicProximityKit {
-  umbrella header "CAMagicProximityKit.h"
-
-  export *
-  module * { export * }
-}

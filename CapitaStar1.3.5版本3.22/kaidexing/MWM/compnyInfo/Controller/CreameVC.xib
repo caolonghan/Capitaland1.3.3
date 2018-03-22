@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="15G1421" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CreameVC">
+            <connections>
+                <outlet property="Creame" destination="5if-Ll-OGv" id="X35-pw-MVv"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="groupface" translatesAutoresizingMaskIntoConstraints="NO" id="GLh-AI-4Em">
+                    <rect key="frame" x="0.0" y="180" width="375" height="265"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="265" id="URM-Lh-lng"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ufi-AJ-pyG">
+                    <rect key="frame" x="30" y="30" width="136" height="65"/>
+                    <string key="text">刷脸门禁
+</string>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="27"/>
+                    <color key="textColor" red="0.22352941179999999" green="0.22352941179999999" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="体验人脸识别新科技 请拍摄面部来确认身份" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tLQ-oM-mg0">
+                    <rect key="frame" x="30" y="95" width="173.5" height="41"/>
+                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="17"/>
+                    <color key="textColor" red="0.22352941179999999" green="0.22352941179999999" blue="0.22352941179999999" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5if-Ll-OGv">
+                    <rect key="frame" x="15" y="535" width="345" height="45"/>
+                    <color key="backgroundColor" red="0.1843137255" green="0.67843137249999996" blue="0.74117647060000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="X2h-g0-ALo"/>
+                    </constraints>
+                    <state key="normal" title="确认">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="Creame:" destination="-1" eventType="touchUpInside" id="cMk-NW-vcU"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="GLh-AI-4Em" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="2U5-0r-v6n"/>
+                <constraint firstItem="ufi-AJ-pyG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="30" id="2di-lu-usi"/>
+                <constraint firstAttribute="trailing" secondItem="5if-Ll-OGv" secondAttribute="trailing" constant="15" id="8C3-Lt-vfn"/>
+                <constraint firstItem="ufi-AJ-pyG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="30" id="8On-wP-H5u"/>
+                <constraint firstItem="GLh-AI-4Em" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="180" id="DcR-k9-oXb"/>
+                <constraint firstItem="5if-Ll-OGv" firstAttribute="top" secondItem="GLh-AI-4Em" secondAttribute="bottom" constant="90" id="ETc-ug-GS4"/>
+                <constraint firstItem="tLQ-oM-mg0" firstAttribute="top" secondItem="ufi-AJ-pyG" secondAttribute="bottom" id="KCS-tN-DpJ"/>
+                <constraint firstAttribute="trailing" secondItem="GLh-AI-4Em" secondAttribute="trailing" id="Qfg-ze-1mW"/>
+                <constraint firstItem="tLQ-oM-mg0" firstAttribute="leading" secondItem="ufi-AJ-pyG" secondAttribute="leading" id="kJm-2p-d2V"/>
+                <constraint firstItem="5if-Ll-OGv" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="15" id="m9Q-Y7-rd7"/>
+            </constraints>
+            <point key="canvasLocation" x="-18.5" y="51.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="groupface" width="363" height="269"/>
+    </resources>
+</document>

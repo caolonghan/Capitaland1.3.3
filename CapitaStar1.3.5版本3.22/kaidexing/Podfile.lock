@@ -1,0 +1,85 @@
+PODS:
+  - ActionSheetPicker-3.0 (1.3.12)
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - Bugly (2.4.8)
+  - CAMagicProximityKit (1.2.17)
+  - CocoaLumberjack (3.2.1):
+    - CocoaLumberjack/Default (= 3.2.1)
+    - CocoaLumberjack/Extensions (= 3.2.1)
+  - CocoaLumberjack/Default (3.2.1)
+  - CocoaLumberjack/Extensions (3.2.1):
+    - CocoaLumberjack/Default
+  - JCore (1.1.6)
+  - JPush (3.0.7):
+    - JCore (~> 1.1.6)
+  - JSONModel (1.7.0)
+  - Mixpanel (2.9.9):
+    - Mixpanel/Mixpanel (= 2.9.9)
+  - Mixpanel/Mixpanel (2.9.9)
+  - MJExtension (3.0.13)
+  - Pingpp (2.2.19):
+    - Pingpp/Alipay (= 2.2.19)
+    - Pingpp/Core (= 2.2.19)
+    - Pingpp/UnionPay (= 2.2.19)
+  - Pingpp/Alipay (2.2.19):
+    - Pingpp/Core
+    - PingppAlipaySDK (~> 15.5)
+  - Pingpp/Core (2.2.19)
+  - Pingpp/UnionPay (2.2.19):
+    - Pingpp/Core
+  - PingppAlipaySDK (15.5.0)
+  - ReactiveCocoa (2.0):
+    - ReactiveCocoa/Core (= 2.0)
+    - ReactiveCocoa/no-arc (= 2.0)
+    - ReactiveCocoa/RACExtensions (= 2.0)
+  - ReactiveCocoa/Core (2.0):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.0)
+  - ReactiveCocoa/RACExtensions (2.0):
+    - ReactiveCocoa/Core
+
+DEPENDENCIES:
+  - ActionSheetPicker-3.0 (~> 1.3.4)
+  - AFNetworking (~> 3.0)
+  - Bugly
+  - CAMagicProximityKit
+  - CocoaLumberjack
+  - JPush
+  - JSONModel
+  - Mixpanel
+  - MJExtension
+  - Pingpp
+  - ReactiveCocoa (~> 2.0.0)
+
+SPEC CHECKSUMS:
+  ActionSheetPicker-3.0: 9fd0713777fad3a3f3b89ea58c75d59ccdef28f4
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Bugly: da3c02408c14838d498429320545a8e439392978
+  CAMagicProximityKit: 16e7beb53a4cec3624e497325180a0ef613193f0
+  CocoaLumberjack: 2800c03334042fe80589423c8d80e582dcaec482
+  JCore: 18fc8725124f26e55625eaf224659b3a999dcf63
+  JPush: 111b79b8a0169ab8fd4c486dac3ed166ed69293e
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  Mixpanel: 818d1940c2d9402453b349545022a86968097f57
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  Pingpp: 809c059c6b51e1026708333dc5900ef0b69d1a57
+  PingppAlipaySDK: aa5a2fe0d61e12c34366b0269a89bc6609aea95a
+  ReactiveCocoa: c5347d7b1c348d22a85800e14e89da84c5254cfb
+
+PODFILE CHECKSUM: d102cccb4b30570f431f8f7974836d19020f9c06
+
+COCOAPODS: 1.3.1

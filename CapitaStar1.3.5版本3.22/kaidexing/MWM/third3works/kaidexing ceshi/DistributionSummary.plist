@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>kaidexing.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>armv7</string>
+				<string>arm64</string>
+			</array>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+				<key>dateExpires</key>
+				<string>2018/7/13</string>
+				<key>type</key>
+				<string>iOS Distribution</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>AFNetworking.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>ActionSheetPicker_3_0.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>CocoaLumberjack.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>JSONModel.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>Mixpanel.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>armv7</string>
+						<string>arm64</string>
+					</array>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>611F0B109C5E5E03D97865ECBB8EA8CC8E66C6C4</string>
+						<key>dateExpires</key>
+						<string>2018/7/13</string>
+						<key>type</key>
+						<string>iOS Distribution</string>
+					</dict>
+					<key>name</key>
+					<string>ReactiveCocoa.framework</string>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>467QQQFV3T</string>
+						<key>name</key>
+						<string>CAPITASTAR PTE LTD</string>
+					</dict>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>467QQQFV3T.cn.com.capitaland.mall</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>467QQQFV3T</string>
+				<key>get-task-allow</key>
+				<false/>
+				<key>keychain-access-groups</key>
+				<array>
+					<string>467QQQFV3T.com.mwm.test.kaiDeXing</string>
+				</array>
+			</dict>
+			<key>name</key>
+			<string>kaidexing AIR.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>14034fb2-86eb-411f-a071-d2d7970975ea</string>
+				<key>name</key>
+				<string>capitalandMallTest</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>467QQQFV3T</string>
+				<key>name</key>
+				<string>CAPITASTAR PTE LTD</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>
